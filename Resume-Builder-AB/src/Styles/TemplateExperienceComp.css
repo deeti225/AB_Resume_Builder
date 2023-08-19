@@ -1,0 +1,103 @@
+.experience-heading {
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+
+}
+
+.org-name {
+  font-size: 12px;
+  margin-left: 10px;
+  font-weight: 400;
+}
+
+.experience-start-end {
+  font-size: 12px;
+  margin-left: 10px;
+  font-weight: 400;
+  font-style: italic;
+  margin-left: 4px;
+}
+
+.templateExperienceComp {
+  margin-left: -20px;
+
+}
+
+
+
+
+
+@media screen and (min-width: 200px) and (max-width:450px) {
+  .experience-heading {
+    font-size: 3vw !important;
+  }
+
+  .org-name {
+    font-size: 2vw;
+
+  }
+
+  .experience-start-end {
+    font-size: 2vw;
+
+  }
+
+}
+
+
+
+@media screen and (min-width: 450px) and (max-width:550px) {
+  .experience-heading {
+    font-size: 2vw !important;
+  }
+
+  .org-name {
+    font-size: 1.65vw;
+
+  }
+
+  .experience-start-end {
+    font-size: 1.65vw;
+
+  }
+
+}
+
+
+
+@media screen and (min-width: 550px) and (max-width:700px) {
+  .experience-heading {
+    font-size: 2vw !important;
+  }
+
+  .org-name {
+    font-size: 1.65vw;
+
+  }
+
+  .experience-start-end {
+    font-size: 1.65vw;
+
+  }
+
+}
+
+
+
+@media screen and (min-width: 700px) and (max-width:900px) {
+  .experience-heading {
+    font-size: 1.5vw !important;
+  }
+
+  .org-name {
+    font-size: 1.2vw;
+
+  }
+
+  .experience-start-end {
+    font-size: 1.2vw;
+
+  }
+
+}

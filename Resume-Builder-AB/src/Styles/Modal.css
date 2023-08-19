@@ -1,0 +1,26 @@
+.Modal {
+    background-color: white;
+    width: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1.5px inset rgb(4, 129, 253);
+    box-shadow: 2px 2px gray;
+    border-radius: 10px;
+}
+
+
+.Para {
+    width: fit-content;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 6px;
+}
+
+.RightTickImage {
+    position: relative;
+    left: 50%;
+    transform: translate(-10%);
+}

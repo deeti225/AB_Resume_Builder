@@ -1,0 +1,100 @@
+.title {
+  width: 100%;
+  padding: 30px 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 550;
+  margin-top: 10px;
+  letter-spacing: 0.4px;
+  margin-bottom: 1px;
+
+}
+
+
+
+.my-resumes {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.722);
+  justify-items: center;
+  margin-top: -20px;
+}
+
+.resume {
+  position: relative;
+  height: fit-content;
+}
+
+#main.active {
+  filter: blur(3px);
+  transition: 0.5s;
+}
+
+
+.itemBox {
+  padding: 0px !important;
+  letter-spacing: normal;
+  height: fit-content !important;
+  width: fit-content !important;
+}
+
+.resume:hover .DarkEffect {
+  visibility: visible;
+}
+
+.resume:hover {
+  cursor: pointer;
+}
+
+.use-template-btn-cont {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  display: none;
+}
+
+.resume:hover .use-template-btn-cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 5;
+}
+
+.use-template-btn-cont .MuiButtonBase-root.MuiButton-root.use-template-btn {
+  position: relative;
+  top: auto;
+  left: auto;
+  transform: none;
+  visibility: visible;
+  text-transform: capitalize;
+}
+
+.no-resumes-container {
+  width: 100%;
+  display: flex;
+  padding-top: 150px;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.my-resumes-container .no-resumes-container .no-resumes-text {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 500px) {
+  .my-resumes {
+    padding: 400px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .my-resumes {
+    justify-content: center;
+    padding: 40px 30px !important;
+  }
+}

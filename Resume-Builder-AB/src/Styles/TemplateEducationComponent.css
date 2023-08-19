@@ -1,0 +1,87 @@
+.template-education-details {
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 13px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+
+.education-start-end {
+  font-style: italic;
+  margin-left: 4px;
+}
+
+
+
+.template-education-university,
+.education-start-end {
+  font-size: 12px;
+  margin-left: 10px;
+  font-weight: 400;
+}
+
+
+
+
+@media screen and (min-width: 200px) and (max-width:450px) {
+  .template-education-details {
+    font-size: 3vw !important;
+
+  }
+
+  .template-education-university,
+  .education-start-end {
+    font-size: 2vw !important;
+
+  }
+}
+
+
+
+
+@media screen and (min-width: 450px) and (max-width:550px) {
+  .template-education-details {
+    font-size: 2vw !important;
+
+  }
+
+  .template-education-university,
+  .education-start-end {
+    font-size: 1.65vw !important;
+
+  }
+}
+
+
+
+@media screen and (min-width: 550px) and (max-width:900px) {
+  .template-education-details {
+    font-size: 2vw !important;
+
+  }
+
+  .template-education-university,
+  .education-start-end {
+    font-size: 1.65vw !important;
+
+  }
+}
+
+
+
+
+
+@media screen and (min-width: 700px) and (max-width:900px) {
+  .template-education-details {
+    font-size: 1.5vw !important;
+
+  }
+
+  .template-education-university,
+  .education-start-end {
+    font-size: 1.2vw !important;
+
+  }
+}

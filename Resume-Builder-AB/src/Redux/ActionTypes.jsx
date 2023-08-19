@@ -1,0 +1,9 @@
+export const AddEducation = "AddEducation";
+export const SelectResume = "SelectResume";
+export const AddExperienceAll = "AddExperienceAll";
+export const AddExperience = "AddExperience";
+export const SelectTemplate = "SelectTemplate";
+export const EditSkill = "EditSkill";
+export const DeleteSkill = "DeleteSkill";
+export const AddPersonalInfo = "AddPersonalInfo";
+export const AddNewSkills = "AddNewSkills";

@@ -1,0 +1,10 @@
+.select-Component {
+  width: 100%;
+}
+
+.select-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: grey;
+  margin-bottom: 5px;
+}

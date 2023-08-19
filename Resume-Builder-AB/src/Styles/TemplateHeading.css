@@ -1,0 +1,54 @@
+.professional-experience-heading {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.breakLine {
+    width: 100%;
+    border: none;
+    height: 2px;
+    margin-bottom: 8px;
+}
+
+@media screen and (min-width: 200px)and (max-width: 450px) {
+    .professional-experience-heading {
+        font-size: 13px;
+        margin-bottom: 0.1vw !important;
+
+    }
+
+    .breakLine {
+        margin-top: 1vw !important
+    }
+}
+
+
+
+@media screen and (min-width: 450px)and (max-width: 550px) {
+    .professional-experience-heading {
+        font-size: 13px;
+        margin-bottom: 0.1vw !important;
+
+    }
+
+    .breakLine {
+        margin-top: 0.5vw !important
+    }
+}
+
+
+
+
+@media screen and (min-width: 550px)and (max-width:900px) {
+    .professional-experience-heading {
+        font-size: 13px;
+        margin-bottom: 0.1vw !important;
+
+    }
+
+    .breakLine {
+        margin-top: 0.5vw !important
+    }
+}
